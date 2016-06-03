@@ -1,0 +1,136 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	font-family: 'Inconsolata', serif;
+	}
+
+body {
+	background: url(jpg/Cold-Chicago.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: rgb(211,223,236);
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+div {
+	max-width: 100%;
+}
+.container {
+	max-width: 940px;
+}
+
+/*Header*/
+.header {
+	background: black;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+
+.header, .footer {
+	padding: 25px 0;
+}
+
+.header h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.header h1 {
+	font-family: 'Pacifico';
+}
+
+/*Page Nav*/
+.pull-right {
+	list-style: none; 
+	padding-top: 10px;
+}
+
+.pull-right li {
+	display: inline;
+	font-size: 18px;
+	padding: 8px 15px;
+}
+
+.pull-right a{
+	text-decoration: none;
+	color: rgb(211,223,236);
+	font-weight: 600;
+}
+
+.pull-right a:hover{
+	border-bottom:1px solid rgb(44, 127, 247);
+	color: rgb(44, 127, 247);
+}
+
+
+/*Jumbotron*/
+.jumbotron {
+	padding-top: 150px;
+	background: transparent;
+	text-align: center;
+	z-index: 0;
+}
+
+.jumbotron ul {
+	display: inline;
+	list-style: none;
+}
+
+.jumbotron li {
+	display: inline;
+	font-size: 64px;
+}
+
+/*Main*/
+.main {
+	padding-top: 150px;
+	width: 100%;
+}
+
+.main p {
+	padding: 50px 50px 50px 0;
+	text-align: left;
+	color: rgb(48, 140, 255);
+	font-size: 32px;
+}
+
+.main h1 {
+	margin: 0;
+	padding: 50px 0 10px 0;
+}
+
+.form-control {
+  border-radius: 4px;
+  width: 350px;
+}
+
+textarea{
+	resize: none;
+	overflow: auto;
+}
+
+.main .btn {
+  background: rgb(63,75,88);
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 11px;
+}
+
+/*Supporting*/
+.supporting {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*Footer*/
+.footer {
+	margin-bottom: 0;
+}
+.footer p {
+	text-align: center;
+}
+
